@@ -37,4 +37,13 @@
 		
 	}
 	
+	function supprimercommande($supprimevalue,$id_client){
+		global $db;
+		 $query = mysqli_query($db,"DELETE FROM `commandes` WHERE id_reservation = '$supprimevalue' AND id_client = '$id_client'");
+		$rows=array();
+	while($row = mysqli_fetch_array($query,MYSQLI_ASSOC)) 
+   $rows[] = $row;
+return $rows;
+			}
+	
 ?>
