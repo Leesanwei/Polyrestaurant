@@ -1,7 +1,7 @@
 <?php
-		   $mysql_server = '127.5.146.130:3306';
-   $mysql_username = 'adminAMdwV27';
-   $mysql_password = 'EfdJkdx6tsnz';
+		   $mysql_server = '';
+   $mysql_username = '';
+   $mysql_password = '';
    $mysql_database = 'polyrestaurant';
 
    
