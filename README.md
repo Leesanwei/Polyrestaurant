@@ -2,7 +2,7 @@
 
 PolyRestaurant
 
-Liens vers le site web : polyrestaurant-sanwei.rhcloud.com 
+Liens vers le site web : https://polyrestaurant.herokuapp.com
 
 Identifiant: 
 
